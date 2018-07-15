@@ -1,0 +1,43 @@
+{
+	"name": "laser-theme",
+	"displayName": "Laser",
+	"description": "A retro 80s theme, based on the popular GMK Laser keycap set from MiTo.",
+	"version": "0.0.1",
+	"publisher": "j0hnm4r5",
+	"engines": {
+		"vscode": "^1.25.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Laser",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Laser-color-theme.json"
+			}
+		]
+	},
+	"scripts": {
+		"build": "node index.js",
+		"start": "nodemon index.js --watch theme.js --watch colors.js"
+	},
+	"devDependencies": {
+		"babel-eslint": "^8.2.6",
+		"eslint": "^5.1.0",
+		"eslint-config-airbnb": "^17.0.0",
+		"eslint-config-prettier": "^2.9.0",
+		"eslint-formatter-pretty": "^1.3.0",
+		"eslint-plugin-import": "^2.13.0",
+		"eslint-plugin-jsx-a11y": "^6.1.1",
+		"eslint-plugin-no-use-extend-native": "^0.3.12",
+		"eslint-plugin-prettier": "^2.6.2",
+		"eslint-plugin-promise": "^3.8.0",
+		"eslint-plugin-react": "^7.10.0",
+		"eslint-plugin-unicorn": "^4.0.3",
+		"esm": "^3.0.71",
+		"nodemon": "^1.18.2",
+		"prettier": "^1.13.7"
+	}
+}
