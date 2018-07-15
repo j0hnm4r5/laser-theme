@@ -2,7 +2,7 @@
 	"name": "laser-theme",
 	"displayName": "Laser",
 	"description": "A retro 80s theme, based on the popular GMK Laser keycap set from MiTo.",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"repository": {
 		"repository": "github:j0hnm4r5/laser-theme"
 	},
