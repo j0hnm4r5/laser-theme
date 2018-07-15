@@ -8,7 +8,7 @@ A VSCode theme based on the popular [GMK Laser](https://mitormk.com/s00n/) keyca
 
 1. Launch Visual Studio Code
 2. Choose `View > Extensions`
-3. Search for laser-theme
+3. Search for `Laser Theme`
 4. Click `Install`
 5. Click `Reload`
 6. Choose `Code > Preferences > Color Theme > Laser`
