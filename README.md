@@ -1,5 +1,7 @@
 # Laser
 
+![](https://imgur.com/a/JLylZlP)
+
 A VSCode theme based on the popular [GMK Laser](https://mitormk.com/s00n/) keycap set from [MiTo](https://mitormk.com/).
 
 ## Installation

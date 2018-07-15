@@ -58,5 +58,3 @@ export function hexToRGBAString(hex, alpha) {
 	const color = hexToRGB(hex);
 	return `rgba(${color.r}, ${color.g}, ${color.b}, ${alpha})`;
 }
-
-// module.exports = { ansi, base16, hexToRGBAString };

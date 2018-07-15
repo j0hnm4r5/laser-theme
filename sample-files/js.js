@@ -1,40 +1,91 @@
-class Sale {
-	constructor(price) {
-		[this.decoratorsList, this.price] = [[], price];
+/* The script is placed inside an immediately invoked function expression
+   which helps protect the scope of variables */
+
+const hello = () => {
+	// PART ONE: CREATE HOTEL OBJECT AND WRITE OUT THE OFFER DETAILS
+
+	// Create a hotel object using object literal syntax
+	const hotel = {
+		name: `Park`,
+		roomRate: 240, // Amount in dollars
+		discount: 15, // Percentage discount
+		offerPrice() {
+			const offerRate = this.roomRate * ((100 - this.discount) / 100);
+			return offerRate;
+		},
+	};
+
+	// Write out the hotel name, standard rate, and the special rate
+	let hotelName;
+	let roomRate;
+	let specialRate; // Declare variables
+
+	hotelName = document.getElementById(`hotelName`); // Get elements
+	roomRate = document.getElementById(`roomRate`);
+	specialRate = document.getElementById(`specialRate`);
+
+	hotelName.textContent = hotel.name; // Write hotel name
+	roomRate.textContent = `$${hotel.roomRate.toFixed(2)}`; // Write room rate
+	specialRate.textContent = `$${hotel.offerPrice()}`; // Write offer price
+
+	// PART TWO: CALCULATE AND WRITE OUT THE EXPIRY DETAILS FOR THE OFFER
+	let expiryMsg; // Message displayed to users
+	let today; // Today's date
+	let elEnds; // The element that shows the message about the offer ending
+
+	function offerExpires(today) {
+		// Declare variables within the function for local scope
+		let weekFromToday;
+		let day;
+		let date;
+		let month;
+		let year;
+		let dayNames;
+		let monthNames;
+
+		// Add 7 days time (added in milliseconds)
+		weekFromToday = new Date(today.getTime() + 7 * 24 * 60 * 60 * 1000);
+
+		// Create arrays to hold the names of days / months
+		dayNames = [
+			`Sunday`,
+			`Monday`,
+			`Tuesday`,
+			`Wednesday`,
+			`Thursday`,
+			`Friday`,
+			`Saturday`,
+		];
+		monthNames = [
+			`January`,
+			`February`,
+			`March`,
+			`April`,
+			`May`,
+			`June`,
+			`July`,
+			`August`,
+			`September`,
+			`October`,
+			`November`,
+			`December`,
+		];
+
+		// Collect the parts of the date to show on the page
+		day = dayNames[weekFromToday.getDay()];
+		date = weekFromToday.getDate();
+		month = monthNames[weekFromToday.getMonth()];
+		year = weekFromToday.getFullYear();
+
+		// Create the message
+		expiryMsg = `Offer expires next `;
+		expiryMsg += `${day} <br />(${date} ${month} ${year})`;
+		return expiryMsg;
 	}
 
-	// Hello world!
-	decorate(decorator) {
-		const hello = `#ff00ff`;
-		console.log(hello);
+	today = new Date(); // Put today's date in variable
+	elEnds = document.getElementById(`offerEnds`); // Get the offerEnds element
+	elEnds.innerHTML = offerExpires(today); // Add the expiry message
 
-		if (!Sale[decorator])
-			throw new Error(`decorator not exist: ${decorator}`);
-		this.decoratorsList.push(Sale[decorator]);
-	}
-
-	getPrice() {
-		for (const decorator of this.decoratorsList) {
-			this.price = decorator(this.price);
-		}
-		return this.price.toFixed(2);
-	}
-
-	static quebec(price) {
-		// this is a comment
-		return price + (price * 7.5) / 100;
-	}
-
-	static fedtax(price) {
-		return price + (price * 5) / 100;
-	}
-}
-
-const sale = new Sale(100);
-sale.decorate(`fedtax`);
-sale.decorate(`quebec`);
-console.log(sale.getPrice()); // 112.88
-
-getPrice(test);
-
-// deeply nested
+	// Finish the immediately invoked function expression
+})();
