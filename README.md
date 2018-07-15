@@ -13,4 +13,4 @@ A VSCode theme based on the popular [GMK Laser](https://mitormk.com/s00n/) keyca
 
 ## Development
 
-This is my first VSCode theme, so please let me know if something feels off, or if you have a recommendation! Pull Requests gladly accepted! See [`CONTRIBUTING.md`](./CONTRIBUTING.md) for more info.
+This is my first VSCode theme, so please let me know if something feels off, or if you have a recommendation! Pull Requests gladly accepted! See `CONTRIBUTING.md` for more info.
