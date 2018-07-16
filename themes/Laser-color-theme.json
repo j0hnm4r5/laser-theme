@@ -879,8 +879,8 @@
     "statusBar.debuggingBackground": "#D42450",
     "statusBar.debuggingForeground": "#08040B",
     "statusBar.debuggingBorder": "#08040B",
-    "statusBar.noFolderForeground": "#301D78",
-    "statusBar.noFolderBackground": "#00A7B5",
+    "statusBar.noFolderBackground": "#301D78",
+    "statusBar.noFolderForeground": "#00A7B5",
     "statusBar.noFolderBorder": "#08040B",
     "statusBarItem.activeBackground": "#D95702",
     "statusBarItem.hoverBackground": "#D42450",
@@ -934,7 +934,7 @@
     "gitDecoration.modifiedResourceForeground": "#00A7B5",
     "gitDecoration.deletedResourceForeground": "#D42450",
     "gitDecoration.untrackedResourceForeground": "#D95702",
-    "gitDecoration.ignoredResourceForeground": "#301D78",
+    "gitDecoration.ignoredResourceForeground": "#E9C8D3",
     "gitDecoration.conflictingResourceForeground": "#D42450",
     "gitDecoration.submoduleResourceForeground": "#A9D400"
   }

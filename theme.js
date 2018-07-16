@@ -942,7 +942,7 @@ const theme = {
 		"gitDecoration.modifiedResourceForeground": ansi.cyan,
 		"gitDecoration.deletedResourceForeground": ansi.red,
 		"gitDecoration.untrackedResourceForeground": ansi.yellow,
-		"gitDecoration.ignoredResourceForeground": ansi.blue,
+		"gitDecoration.ignoredResourceForeground": ansi.white,
 		"gitDecoration.conflictingResourceForeground": ansi.red,
 		"gitDecoration.submoduleResourceForeground": ansi.green,
 	},
