@@ -14,7 +14,7 @@
 	"categories": [
 		"Themes"
 	],
-	"icon": "./icon.png",
+	"icon": "icon.png",
 	"galleryBanner": {
 		"color": "#27214D",
 		"theme": "dark"
@@ -24,7 +24,7 @@
 			{
 				"label": "Laser",
 				"uiTheme": "vs-dark",
-				"path": "./themes/Laser-color-theme.json"
+				"path": "themes/Laser-color-theme.json"
 			}
 		]
 	},
