@@ -1,7 +1,7 @@
 # Lasers
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/j0hnm4r5/laser-theme/blob/master/assets/images/logo.png">
+  <img src="https://github.com/j0hnm4r5/laser-theme/blob/master/assets/images/logo.png">
 </p>
 
 A VSCode theme based on the popular [GMK Laser](https://mitormk.com/s00n/) keycap set from [MiTo](https://mitormk.com/).
