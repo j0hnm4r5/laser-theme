@@ -4,9 +4,9 @@
 
 A VSCode theme based on the popular [GMK Laser](https://mitormk.com/s00n/) keycap set from [MiTo](https://mitormk.com/).
 
-![Logo](assets/images/logo.png)
+![Logo](https://github.com/j0hnm4r5/laser-theme/blob/master/assets/images/logo.png)
 
-![Swatches](assets/images/swatches.png)
+![Swatches](https://github.com/j0hnm4r5/laser-theme/blob/master/assets/images/swatches.png)
 
 ## Installation
 
