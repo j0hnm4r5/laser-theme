@@ -1,7 +1,7 @@
 {
-	"name": "laser-theme",
-	"displayName": "Laser Theme",
-	"description": "A retro 80s theme with italics, based on the popular GMK Laser keycap set from MiTo.",
+	"name": "lasers",
+	"displayName": "Lasers",
+	"description": "An Outrun theme with italics, based on the popular GMK Laser keycap set from MiTo.",
 	"version": "0.8.0",
 	"repository": {
 		"type": "git",
@@ -14,17 +14,17 @@
 	"categories": [
 		"Themes"
 	],
-	"icon": "icon.png",
+	"icon": "assets/images/logo.png",
 	"galleryBanner": {
-		"color": "#27214D",
+		"color": "#C6E4E4",
 		"theme": "dark"
 	},
 	"contributes": {
 		"themes": [
 			{
-				"label": "Laser",
+				"label": "Lasers",
 				"uiTheme": "vs-dark",
-				"path": "themes/Laser-color-theme.json"
+				"path": "compiled/Lasers.json"
 			}
 		]
 	},

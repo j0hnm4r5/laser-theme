@@ -949,7 +949,7 @@ const theme = {
 };
 
 fs.writeFile(
-	`./themes/Laser-color-theme.json`,
+	`./compiled/Outrun.json`,
 	JSON.stringify(theme, null, 2),
 	`utf8`,
 	(err) => {

@@ -1,17 +1,21 @@
-# Laser
+# Lasers
 
-![Laser Theme](https://i.imgur.com/jHS78Us.png)
+![Lasers Theme](https://i.imgur.com/jHS78Us.png)
 
 A VSCode theme based on the popular [GMK Laser](https://mitormk.com/s00n/) keycap set from [MiTo](https://mitormk.com/).
+
+![Logo](assets/images/logo.png)
+
+![Swatches](assets/images/swatches.png)
 
 ## Installation
 
 1. Launch Visual Studio Code
 2. Choose `View > Extensions`
-3. Search for `Laser Theme`
+3. Search for `Lasers`
 4. Click `Install`
 5. Click `Reload`
-6. Choose `Code > Preferences > Color Theme > Laser`
+6. Choose `Code > Preferences > Color Theme > Lasers`
 
 ## Development
 
