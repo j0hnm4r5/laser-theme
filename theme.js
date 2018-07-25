@@ -16,9 +16,14 @@ const theme = {
 		},
 		{
 			name: `Punctuation`,
-			scope: `punctuation`,
+			scope: [
+				`punctuation`,
+				`meta.delimeter.column`,
+				`keyword.other.template.begin`,
+				`keyword.other.template.end`,
+			],
 			settings: {
-				foreground: ansi.red,
+				foreground: ansi.white,
 			},
 		},
 
@@ -117,6 +122,13 @@ const theme = {
 			},
 		},
 		{
+			name: `Function Params`,
+			scope: [`variable.other.readwrite`, `variable.parameter.function`],
+			settings: {
+				foreground: ansi.green,
+			},
+		},
+		{
 			name: `Number, Constant, Function Argument, Tag Attribute, Embedded`,
 			scope: [
 				`constant.numeric`,
@@ -142,6 +154,8 @@ const theme = {
 				`markup.heading`,
 				`markup.inserted.git_gutter`,
 				`meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js`,
+				`string.json`,
+				`support.type.property-name.json`,
 			],
 			settings: {
 				fontStyle: `normal`,
@@ -280,6 +294,13 @@ const theme = {
 			scope: [`string.regexp`],
 			settings: {
 				foreground: ansi.cyan,
+			},
+		},
+		{
+			name: `Regular Expressions`,
+			scope: [`keyword.control.anchor.regexp`],
+			settings: {
+				foreground: ansi.red,
 			},
 		},
 		{
@@ -608,7 +629,7 @@ const theme = {
 		{
 			name: `JSX Attributes`,
 			scope: `entity.other.attribute-name.jsx`,
-			settings: { fontStyle: `italic`, foreground: ansi.red },
+			settings: { fontStyle: `italic`, foreground: ansi.yellow },
 		},
 		{
 			name: `JSX Tags`,
@@ -949,10 +970,10 @@ const theme = {
 };
 
 fs.writeFile(
-	`./compiled/Outrun.json`,
+	`./compiled/Lasers.json`,
 	JSON.stringify(theme, null, 2),
 	`utf8`,
 	(err) => {
-		console.log(err);
+		if (err) console.log(err);
 	},
 );

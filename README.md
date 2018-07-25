@@ -5,7 +5,8 @@
 
 </p>
 
-A VSCode theme based on the popular [GMK Laser](https://mitormk.com/s00n/) keycap set from [MiTo](https://mitormk.com/).
+
+A VSCode [Outrun](https://www.reddit.com/r/outrun/) theme with italics, based on the popular [GMK Laser](https://www.massdrop.com/buy/massdrop-x-mito-gmk-laser-custom-keycap-set) keycap set from [MiTo](https://mitormk.com/s00n).
 
 
 ## Examples

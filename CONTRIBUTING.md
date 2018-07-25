@@ -6,7 +6,7 @@
 
 * `colors.js`: all of the defined colors for the theme
 * `theme.js`: color customization definitions for syntax and the workbench
-* `themes/Laser-color-theme.json`: the compiled color theme
+* `compiled/Lasers.json`: the compiled color theme
 
 ### Scripts
 
@@ -15,7 +15,7 @@
 
 ### Developing
 
-To test color changes, run the VSCode debugger with `Debug > Start Debugging`, then set the new window's theme to Laser. Every time a change is made, reload the debugger to see it.
+To test color changes, run the VSCode debugger with `Debug > Start Debugging`, then set the new window's theme to `Lasers`. Every time a change is made, reload the debugger to see it.
 
 ### Contributing
 

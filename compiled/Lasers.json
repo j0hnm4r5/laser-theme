@@ -9,9 +9,14 @@
     },
     {
       "name": "Punctuation",
-      "scope": "punctuation",
+      "scope": [
+        "punctuation",
+        "meta.delimeter.column",
+        "keyword.other.template.begin",
+        "keyword.other.template.end"
+      ],
       "settings": {
-        "foreground": "#D42450"
+        "foreground": "#E9C8D3"
       }
     },
     {
@@ -31,7 +36,7 @@
         "string constant.other.placeholder"
       ],
       "settings": {
-        "foreground": "#00A7B5"
+        "foreground": "#D42450"
       }
     },
     {
@@ -62,7 +67,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#D42450"
+        "foreground": "#00A7B5"
       }
     },
     {
@@ -105,7 +110,7 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#A9D400"
+        "foreground": "#D42450"
       }
     },
     {
@@ -114,7 +119,7 @@
         "meta.block variable.other"
       ],
       "settings": {
-        "foreground": "#00A7B5"
+        "foreground": "#D42450"
       }
     },
     {
@@ -124,7 +129,17 @@
         "string.other.link"
       ],
       "settings": {
-        "foreground": "#00A7B5"
+        "foreground": "#D42450"
+      }
+    },
+    {
+      "name": "Function Params",
+      "scope": [
+        "variable.other.readwrite",
+        "variable.parameter.function"
+      ],
+      "settings": {
+        "foreground": "#A9D400"
       }
     },
     {
@@ -152,11 +167,13 @@
         "entity.other.inherited-class",
         "markup.heading",
         "markup.inserted.git_gutter",
-        "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+        "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+        "string.json",
+        "support.type.property-name.json"
       ],
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#A9D400"
+        "foreground": "#D42450"
       }
     },
     {
@@ -172,7 +189,7 @@
         "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "#A9D400"
+        "foreground": "#D42450"
       }
     },
     {
@@ -311,6 +328,15 @@
       ],
       "settings": {
         "foreground": "#00A7B5"
+      }
+    },
+    {
+      "name": "Regular Expressions",
+      "scope": [
+        "keyword.control.anchor.regexp"
+      ],
+      "settings": {
+        "foreground": "#D42450"
       }
     },
     {
@@ -680,7 +706,7 @@
       "scope": "entity.other.attribute-name.jsx",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#D42450"
+        "foreground": "#D95702"
       }
     },
     {

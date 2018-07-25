@@ -26,13 +26,13 @@ export const base16 = {
 	foreground: ansi.red,
 	foregroundLight: ansi.green,
 	backgroundLight: ansi.blue,
-	variables: ansi.cyan,
+	variables: ansi.red,
 	numbers: ansi.yellow,
 	classes: ansi.cyan,
-	strings: ansi.green,
+	strings: ansi.red,
 	support: ansi.yellow,
-	functions: ansi.green,
-	keywords: ansi.magenta,
+	functions: ansi.red,
+	keywords: ansi.cyan,
 	deprecated: ansi.whiteBright,
 };
 
