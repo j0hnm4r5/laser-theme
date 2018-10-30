@@ -1,8 +1,7 @@
 # Lasers
 
 <p align="center">
-  <img src="https://github.com/j0hnm4r5/laser-theme/blob/master/assets/images/logo.png">
-
+  <img src="https://raw.githubusercontent.com/j0hnm4r5/laser-theme/master/assets/images/logo.png">
 </p>
 
 
@@ -16,7 +15,7 @@ A VSCode [Outrun](https://www.reddit.com/r/outrun/) theme with italics, based on
 
 ## Colors
 
-![Swatches](https://github.com/j0hnm4r5/laser-theme/blob/master/assets/images/swatches.png)
+![Swatches](https://raw.githubusercontent.com/j0hnm4r5/laser-theme/master/assets/images/swatches.png)
 
 ## Installation
 
